@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylos.css">
+    <title>Ejercicios Propuestos</title>
+</head>
+
+<body>
+
+    <h2>Ejercicio N° 2.1</h2>
+    <p>Realice un algoritmo para obtener el área de un triángulo.
+    </p>
+
+    <form action="">
+        <label for="a">Base:</label>
+        <input type="number" class="a" placeholder="25">
+        <label for="b">Altura:</label>
+        <input type="number" class="b" placeholder="40">
+        <a onclick="calcular1()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+    <hr>
+
+    <h2>Ejercicio N° 2.2</h2>
+    <p>Realice un algoritmo para determinar cuántos dólares puede adquirir con equis cantidad de dinero en soles.
+    </p>
+
+    <form action="">
+        <label for="a">Monto en S/ :</label>
+        <input type="number" class="a" placeholder="Soles">
+        <label for="b">valor del $:</label>
+        <input type="number" class="b" placeholder="Dolar" value="3.8">
+        <a onclick="calcular2()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+
+    <hr>
+
+
+    <h2>Ejercicio N° 2.3</h2>
+    <p>Realice un algoritmo para determinar la edad de las personas que solicitan trabajo.
+    </p>
+
+    <form action="">
+        <label for="a">Año de nacimiento :</label>
+        <input type="number" class="a" value="1900">
+        <label for="b">Año actual :</label>
+        <input type="number" class="b" value="2021">
+        <a type="button" onclick="calcular3()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+
+    <hr>
+
+    <h2>Ejercicio N° 2.4</h2>
+    <p>Realice un algoritmo para determinar el cobro que debe aplicar en un estacionamiento a las personas que lo
+        utilizan. Considere que el cobro es con base en las horas que lo disponen y que las fracciones de hora se toman
+        como completas
+    </p>
+
+    <form action="">
+        <label for="a">Horas de Estacionamiento :</label>
+        <input type="number" class="a" placeholder="10">
+        <label for="b">Precio por hora :</label>
+        <input type="number" class="b" value="5.5">
+        <a type="button" onclick="calcular4()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+    <hr>
+
+    <h2>Ejercicio N° 2.5</h2>
+    <p> Pinturas “La brocha gorda” requiere determinar cuánto cobrar por trabajos de pintura. Considere que se cobra por
+        m2 para cada cliente.
+    </p>
+
+    <form action="">
+        <label for="a">Total de m2 :</label>
+        <input type="number" class="a" placeholder="10">
+        <label for="b">Precio por m2 :</label>
+        <input type="number" class="b" value="14.5">
+        <a type="button" onclick="calcular5()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+    <hr>
+
+    <h2>Ejercicio N° 2.6</h2>
+    <p> Se requiere determinar la hipotenusa de un triángulo rectángulo. Recuerde que por Pitágoras se tiene
+        que: C2 = A2 + B2.
+    </p>
+
+    <form action="">
+        <label for="a">Cateto A (m):</label>
+        <input type="number" class="a" placeholder="4">
+        <label for="b">Cateto B (m):</label>
+        <input type="number" class="b" placeholder="4">
+        <a type="button" onclick="calcular6()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+    <hr>
+
+    <h2>Ejercicio N° 2.7</h2>
+    <p> La compañía de autobuses “La curva loca” requiere determinar el costo que tendrá el boleto de un viaje
+        sencillo, esto basado en los kilómetros por recorrer y en el costo por kilómetro.
+    </p>
+
+    <form action="">
+        <label for="a">Distancia (km) :</label>
+        <input type="number" class="a" placeholder="100">
+        <label for="b">Precio X km :</label>
+        <input type="number" class="b" value="35">
+        <a type="button" onclick="calcular7()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+    <hr>
+
+    <h2>Ejercicio N° 2.8</h2>
+    <p> Se requiere determinar el tiempo que tarda una persona en llegar de una ciudad a otra en bicicleta, considerando
+        que lleva una velocidad constante.
+    </p>
+
+    <form action="">
+        <label for="a">Distancia (km) :</label>
+        <input type="number" class="a" placeholder="100">
+        <label for="b">Velocidad en Km/h :</label>
+        <input type="number" class="b" placeholder="km/h" value="30">
+        <a type="button" onclick="calcular8()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+    <hr>
+
+    <h2>Ejercicio N° 2.9</h2>
+    <p> Se requiere determinar el costo que tendrá realizar una llamada telefónica con base en el tiempo que dura la
+        llamada y en el costo por minuto.
+    </p>
+
+    <form action="">
+        <label for="a">Duracion en minutos :</label>
+        <input type="number" class="a" placeholder="100">
+        <label for="b">Costo por minuto :</label>
+        <input type="number" class="b" value="1.5">
+        <a type="button" onclick="calcular9()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+    <hr>
+
+    <h2>Ejercicio N° 2.10</h2>
+    <p> La CONAGUA requiere determinar el pago que debe realizar una persona por el total de metros cúbicos que consume
+        de agua. determinar ese pago.
+    </p>
+
+    <form action="">
+        <label for="a">Consumo de Agua (m3) :</label>
+        <input type="number" class="a" placeholder="150">
+        <label for="b">Costo por m3 :</label>
+        <input type="number" class="b" value="1.5">
+        <a type="button" onclick="calcular10()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+    <hr>
+
+    <h2>Ejercicio N° 2.11</h2>
+    <p> La compañía de luz y sombras (CLS) requiere determinar el pago que debe realizar una persona por el consumo de
+        energía eléctrica, la cual se mide en kilowatts (KW). determinar ese pago.
+    </p>
+
+    <form action="">
+        <label for="a">Consumo kilowatts (KW) :</label>
+        <input type="number" class="a" placeholder="150">
+        <label for="b">Costo por kilowatts (KW) :</label>
+        <input type="number" class="b" placeholder="km/h" value="2.5">
+        <a type="button" onclick="calcular11()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+    <hr>
+
+    <h2>Ejercicio N° 2.12</h2>
+    <p> Determinar cuánto pagará finalmente una persona por un artículo equis, considerando que tiene un descuento de
+        20%, y debe pagar 15% de IVA (debe mostrar el precio con descuento y el precio final).
+    </p>
+
+    <form action="">
+        <label for="a">Precio del Articulo ($) :</label>
+        <input type="number" class="a" placeholder="150">
+        <a type="button" onclick="calcular12()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+    <hr>
+
+    <h2>Ejercicio N° 2.13</h2>
+    <p> Determinar cuánto dinero ahorra una persona en un año si considera que cada semana ahorra 15% de su sueldo
+        considere cuatro semanas por mes y que no cambia el sueldo.
+    </p>
+
+    <form action="">
+        <label for="a">Sueldo mensual:</label>
+        <input type="number" class="a" placeholder="4500">
+        <a type="button" onclick="calcular13()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+    <hr>
+
+    <h2>Ejercicio N° 2.14</h2>
+    <p> Una empresa desea determinar el monto de un cheque que debe proporcionar a uno de sus empleados que tendrá que
+        ir por equis número de días a la ciudad de Monterrey; los gastos que cubre la empresa son: hotel, comida y
+        100.00 dolares diarios para otros gastos. El monto debe estar desglosado para cada concepto. Determine el monto
+        del
+        cheque.
+    </p>
+
+    <form action="">
+        <label for="a">Numero Dias :</label>
+        <input type="number" class="a" placeholder="30">
+        <label for="b">Hotel x día :</label>
+        <input type="number" class="b" placeholder="100">
+        <label for="c">Comida x día :</label>
+        <input type="number" class="c" placeholder="1500">
+        <a type="button" onclick="calcular14()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+    <hr>
+
+    <h2>Ejercicio N° 2.15</h2>
+    <p> Se desea calcular la potencia eléctrica de circuito de la figura 2.6. Considere que: P = V*I y V = R*I.
+    </p>
+
+    <form action="">
+        <label for="a">Resistencia (Ω) :</label>
+        <input type="number" class="a" placeholder="30">
+        <label for="b">Voltaje (v) :</label>
+        <input type="number" class="b" placeholder="100">
+        <a type="button" onclick="calcular15()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+    <hr>
+
+    <h2>Ejercicio N° 2.19</h2>
+    <p> Encontrar el área de un cuadrado.
+    </p>
+
+    <form action="">
+        <label for="a">Lado A (m) :</label>
+        <input type="number" class="a" placeholder="15">
+        <label for="b">Lado b (m) 
+            :</label>
+        <input type="number" class="b" placeholder="15">
+        <a type="button" onclick="calcular16()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+    <hr>
+
+    <h2>Ejercicio N° 2.20</h2>
+    <p>Determinar el promedio que obtendrá un alumno considerando que realiza tres exámenes, de los cuales el primero y
+        el segundo tienen una ponderación de 25%, mientras que el tercero de 50%.
+    </p>
+
+    <form action="">
+        <label for="a">Nota 1 :</label>
+        <input type="number" class="a" placeholder="15" max='20'>
+        <label for="b">Nota 2 :</label>
+        <input type="number" class="b" placeholder="15" max='20'>
+        <label for="c">Nota 3 :</label>
+        <input type="number" class="c" placeholder="15" max='20'>
+        <a type="button" onclick="calcular17()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+    <hr>
+
+    <h2>Ejercicio N° 2.21</h2>
+    <p>Determinar aproximadamente cuántos años, meses, semanas, días y horas ha vivido una persona.
+    </p>
+
+    <form action="">
+        <label for="a">Fecha de Nacimiento :</label>
+        <input type="date" class="a local">
+        <a type="button" onclick="calcular18()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+    <hr>
+
+    <h2>Ejercicio N° 2.22</h2>
+    <p>Determinar el costo que tendrá realizar una llamada telefónica con base en el tiempo que dura la llamada y en el
+        costo por minuto.
+    </p>
+
+    <form action="">
+        <label for="a">Duracion de llamada (min) :</label>
+        <input type="number" class="a" placeholder="15">
+        <label for="b">Costo por minuto ($):</label>
+        <input type="number" class="b" value="0.5">
+        <a type="button" onclick="calcular19()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+    <hr>
+
+    <h2>Ejercicio N° 2.23</h2>
+    <p>El hotel “Cama Arena” requiere determinar lo que le debe cobrar a un huésped por su estancia en una de sus
+        habitaciones. Determinar ese cobro.
+    </p>
+
+    <form action="">
+        <label for="a">Duracion de Estancia (hs):</label>
+        <input type="number" class="a" placeholder="15">
+        <label for="b">Costo hora por estancia ($):</label>
+        <input type="number" class="b" value="15">
+        <a type="button" onclick="calcular20()">Calcular</a>
+        <p class="resultado"></p>
+    </form>
+
+    <hr>
+
+</body>
+
+<script src="./app.js"></script>
+
+</html>

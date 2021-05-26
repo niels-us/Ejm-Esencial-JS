@@ -1,0 +1,85 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgba(0, 0, 0, .8);
+    color: rgba(241, 239, 239, .9);
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+h2{
+    padding: 10px;
+}
+
+
+form {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+form p{
+    color: rgb(191, 195, 240);
+    /* font-weight: bold; */
+
+}
+
+form .local {
+    width: 250px;
+
+}
+
+input{
+    margin: 16px 16px;
+    line-height: 2rem;
+    background: none;
+    outline: 0;
+    border: 0;
+    color: white;
+    width: 130px;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    background-color: rgba(0, 0, 255, .5);
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: rgba(241, 239, 239, .9);
+    margin-right: 60px;
+    font-weight: bold;
+    transition: background-color .5s ease;
+
+}
+
+a:hover{
+    background-color: rgba(0, 0, 255, .8);
+    cursor: pointer;
+}
+
+
+input:active{
+    border-bottom: 0px solid dodgerblue;   
+    background: none;   
+}
+
+input:focus{
+    border-bottom: 0px solid dodgerblue; 
+    background: none;  
+}
+
+input:hover{
+    border-bottom: 1px solid dodgerblue;   
+    background: none;  
+}
+
+p{
+    margin: 0;
+    padding: 10px;
+}
